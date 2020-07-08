@@ -167,6 +167,91 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-为博客设定网络地址" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/08/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E8%AE%BE%E5%AE%9A%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80/">为博客搭建服务器</a>
+    </h1>
+  
+
+        
+        <a href="/2020/07/08/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E8%AE%BE%E5%AE%9A%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80/" class="archive-article-date">
+  	<time datetime="2020-07-08T14:21:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-08</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="登陆我们的github账户，如果没有的，请创建一下。"><a href="#登陆我们的github账户，如果没有的，请创建一下。" class="headerlink" title="登陆我们的github账户，如果没有的，请创建一下。"></a>登陆我们的github账户，如果没有的，请创建一下。</h2><h2 id="创建一个新的仓库。"><a href="#创建一个新的仓库。" class="headerlink" title="创建一个新的仓库。"></a>创建一个新的仓库。</h2><p><img src="https://wx1.sbimg.cn/2020/07/08/CPYam.md.png" alt=""></p>
+<h2 id="设置我们的github仓库名称"><a href="#设置我们的github仓库名称" class="headerlink" title="设置我们的github仓库名称"></a>设置我们的github仓库名称</h2><p><img src="https://wx2.sbimg.cn/2020/07/08/CPZIU.png" alt=""></p>
+<p>仓库名称必须设置为我们的昵称加上 github.io （如我的就是 ljxys.github.io），如果不这样设置，是没法设置博客网站的。</p>
+<h2 id="在我们的命令行安装必须的框架"><a href="#在我们的命令行安装必须的框架" class="headerlink" title="在我们的命令行安装必须的框架"></a>在我们的命令行安装必须的框架</h2><p>在命令行输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install –save hexo-deployer-git</span><br></pre></td></tr></table></figure>
+<p>如果有警告的话，直接忽略就好了。</p>
+<h2 id="在-config-yml文件（用notepad-打开）中进行博客配置"><a href="#在-config-yml文件（用notepad-打开）中进行博客配置" class="headerlink" title="在_config.yml文件（用notepad++打开）中进行博客配置"></a>在_config.yml文件（用notepad++打开）中进行博客配置</h2><p>在最底下找到</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br></pre></td></tr></table></figure>
+<p>然后在底下输入：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/ljxys/ljxys.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<h2 id="接下来我们在命令行中输入：hexo-d"><a href="#接下来我们在命令行中输入：hexo-d" class="headerlink" title="接下来我们在命令行中输入：hexo d"></a>接下来我们在命令行中输入：hexo d</h2><p>（若果出现ERROR Deployer not found: git，在命令行中输入npm install –save hexo-deployer-git）</p>
+<p>部署我们的博客，中间会需要我们输入我们的github账号进行确认，到此为止，我们的博客网站就设置好了。登陆xxxx（我们的github账号昵称）.github.io，就可以进入我们的博客啦。</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">服务器</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/08/%E4%B8%BA%E5%8D%9A%E5%AE%A2%E8%AE%BE%E5%AE%9A%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-新手博客创建教程" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -412,6 +497,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">服务器</a>
               </li>
              
               <li class="article-tag-list-item">
