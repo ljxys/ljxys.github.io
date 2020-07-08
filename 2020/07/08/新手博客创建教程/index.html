@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://wx2.sbimg.cn/2020/07/08/CPvQd.md.png">
 <meta property="og:image" content="https://wx2.sbimg.cn/2020/07/08/CP782.png">
 <meta property="article:published_time" content="2020-07-08T01:51:05.000Z">
-<meta property="article:modified_time" content="2020-07-08T02:30:56.574Z">
+<meta property="article:modified_time" content="2020-07-08T02:39:04.097Z">
 <meta property="article:author" content="ljx">
 <meta property="article:tag" content="yilia 博客">
 <meta name="twitter:card" content="summary">
@@ -200,16 +200,13 @@
 <h3 id="在创建我们的第一个博客之前，需要安装git和nodejs。"><a href="#在创建我们的第一个博客之前，需要安装git和nodejs。" class="headerlink" title="在创建我们的第一个博客之前，需要安装git和nodejs。"></a>在创建我们的第一个博客之前，需要安装git和nodejs。</h3><pre><code>首先在百度上搜索 git for window。</code></pre><p><img src="https://wx2.sbimg.cn/2020/07/08/CPKm8.md.png" alt=""><br>第一个就是，直接点进去，然后下载。<br><img src="https://wx2.sbimg.cn/2020/07/08/CPvQd.md.png" alt=""><br>至于安装，除了设置安装路径，其他的一顿点就完事了。</p>
 <p>安装好以后，要配置git的个人信息。<br>这个身份是本地git的一个变量，在提交代码会用身份来记录</p>
 <ol>
-<li><p>打开 Git Bash 终端，配置用户名</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"xxx"</span></span><br><span class="line"><span class="comment">#（名字 xxx 可以自己随便定义）</span></span><br></pre></td></tr></table></figure></li>
-<li><p>配置邮箱</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.email <span class="string">"xxx@xxx.com"</span></span><br><span class="line"><span class="comment">#（邮箱 xxx@xxx.com 自己设置）</span></span><br></pre></td></tr></table></figure>
-<p>检查身份使用以下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config user.name</span><br><span class="line">$ git config user.email</span><br></pre></td></tr></table></figure>
-<p>如果没显示出来，可以使用下面命令查看配置信息里有没有：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config -l</span><br><span class="line"><span class="comment">#（注意最后一个字母是小写的 L， 不是数字 1）</span></span><br></pre></td></tr></table></figure>
-<h3 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h3><p>直接点击这个<a href="https://nodejs.org" target="_blank" rel="noopener">nodejs</a>，点击左边的稳定下载。</p>
-<h2 id="开始搭建创建博客所需要的环境"><a href="#开始搭建创建博客所需要的环境" class="headerlink" title="开始搭建创建博客所需要的环境"></a>开始搭建创建博客所需要的环境</h2></li>
+<li>打开 Git Bash 终端，配置用户名<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"xxx"</span></span><br><span class="line"><span class="comment">#（名字 xxx 可以自己随便定义）</span></span><br></pre></td></tr></table></figure></li>
+<li>配置邮箱<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.email <span class="string">"xxx@xxx.com"</span></span><br><span class="line"><span class="comment">#（邮箱 xxx@xxx.com 自己设置）</span></span><br></pre></td></tr></table></figure>
+检查身份使用以下命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config user.name</span><br><span class="line">$ git config user.email</span><br></pre></td></tr></table></figure>
+如果没显示出来，可以使用下面命令查看配置信息里有没有：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config -l</span><br><span class="line"><span class="comment">#（注意最后一个字母是小写的 L， 不是数字 1）</span></span><br></pre></td></tr></table></figure>
+<h3 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h3>直接点击这个<a href="https://nodejs.org" target="_blank" rel="noopener">nodejs</a>，点击左边的稳定下载。<h2 id="开始搭建创建博客所需要的环境"><a href="#开始搭建创建博客所需要的环境" class="headerlink" title="开始搭建创建博客所需要的环境"></a>开始搭建创建博客所需要的环境</h2></li>
+</ol>
+<ul>
 <li><p>首先打开终端，Win的话就是用win+R打开运行，然后输入cmd进入命令控制。Linux的话，直接右键进入，然后输入sudo su，进入管理员控制。</p>
 </li>
 <li><p>查看node和npm的版本。在命令行中输入node -v和npm -v。</p>
@@ -222,8 +219,9 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 <p>经过一段时间的等待，就将hexo下载好了。大家可以通过输入：hexo -v来验证。</p>
 </li>
-</ol>
-<p>5.在当前目录下面建立一个空的文件夹。在命令行中输入:mkdir blog，就创建成功了。这个时候大家可以到目标目录下面看一下。<strong><em>如果后面哪里出错了，直接删除blog文件夹，重来就行了。</em></strong></p>
+<li><p>在当前目录下面建立一个空的文件夹。在命令行中输入:mkdir blog，就创建成功了。这个时候大家可以到目标目录下面看一下。<strong><em>如果后面哪里出错了，直接删除blog文件夹，重来就行了。</em></strong></p>
+</li>
+</ul>
 <h2 id="开始搭建我们的个人博客"><a href="#开始搭建我们的个人博客" class="headerlink" title="开始搭建我们的个人博客"></a>开始搭建我们的个人博客</h2><ol>
 <li>首先将hexo初始化，在命令行中输入：hexo init就好了.</li>
 <li>如果安装成功，就可以直接进入本地博客了，在命令行中输入: hexo s    (s表示的就是start)，<br>然后在网站中进入：localhost:4000，就进入了我们的个人博客</li>
@@ -480,11 +478,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">yilia 博客</a>
+                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color4">yilia 博客</a>
               </li>
             
             <div class="clearfix"></div>
